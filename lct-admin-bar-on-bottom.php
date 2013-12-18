@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: LCT Admin Bar on Bottom
-Plugin URI: http://lookclassy.com/wordpress-plugins/lct-admin-bar-on-bottom/
+Plugin URI: http://lookclassy.com/wordpress-plugins/admin-bar-on-bottom/
 Description: This plugin sticks the Admin Bar to the bottom of your screen! You can choose to make this change on the front-end, back-end or both
 Version: 1.0
 Text Domain: lct-admin-bar-on-bottom
