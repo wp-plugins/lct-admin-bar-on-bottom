@@ -3,8 +3,9 @@ margin-top:0 !important;
 }
 
 body.admin-bar {
-margin-top:-32px;
-padding-bottom:32px;
+margin-top:-32px !important;
+padding-bottom:32px !important;
+background-position: 0 -32px !important;
 }
 
 body.wp-admin #footer {
