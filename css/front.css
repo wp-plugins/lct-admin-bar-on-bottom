@@ -24,3 +24,11 @@ bottom:32px;
 #wpadminbar .quicklinks .ab-sub-wrapper ul .ab-sub-wrapper {
 bottom:-7px;
 }
+
+@media screen and ( max-width: 782px ) {
+	body.admin-bar {
+		margin-top:-46px !important;
+		padding-bottom:46px !important;
+		background-position: 0 -46px !important;
+	}
+}
