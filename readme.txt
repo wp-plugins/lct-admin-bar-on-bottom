@@ -4,7 +4,7 @@ Donate link: http://lookclassy.com/
 Tags: Admin Bar, wpadminbar
 Requires at least: 3.3
 Tested up to: 3.8.1
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv3 or later
 License URI: http://opensource.org/licenses/GPL-3.0
 
@@ -31,9 +31,12 @@ none
 
 
 == Changelog ==
+= 1.1.3 =
+	- fixed front-end background position (mobile)
+
 = 1.1.2 =
 	- fixed front-end background position (mobile)
-	
+
 = 1.1.1 =
 	- fixed front-end background position
 

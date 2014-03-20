@@ -8,6 +8,10 @@ padding-bottom:32px !important;
 background-position: 0 -32px !important;
 }
 
+.sticky-header{
+	top: 0 !important
+}
+
 body.wp-admin #footer {
 padding-bottom:32px;
 }
