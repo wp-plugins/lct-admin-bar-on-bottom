@@ -4,7 +4,7 @@ Donate link: http://lookclassy.com/
 Tags: Admin Bar, wpadminbar
 Requires at least: 3.3
 Tested up to: 3.9
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GPLv3 or later
 License URI: http://opensource.org/licenses/GPL-3.0
 
