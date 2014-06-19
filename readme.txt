@@ -1,10 +1,10 @@
 === LCT Admin Bar on Bottom ===
 Contributors: ircary
 Donate link: http://lookclassy.com/
-Tags: Admin Bar, wpadminbar
+Stable tag: 1.2
 Requires at least: 3.3
-Tested up to: 3.9
-Stable tag: 1.1.5
+Tested up to: 3.9.1
+Tags: Admin Bar, wpadminbar
 License: GPLv3 or later
 License URI: http://opensource.org/licenses/GPL-3.0
 
@@ -31,8 +31,12 @@ none
 
 
 == Changelog ==
+= 1.2 =
+	- Tested for WP 3.9.1 Compatibility
+	- Cleaned up code.
+
 = 1.1.4 =
-	- Tested for WP 3.9 Compapibility
+	- Tested for WP 3.9 Compatibility
 
 = 1.1.3 =
 	- fixed front-end background position (mobile)
@@ -44,7 +48,7 @@ none
 	- fixed front-end background position
 
 = 1.1 =
-	- Tested for WP 3.8.1 Compapibility
+	- Tested for WP 3.8.1 Compatibility
 
 = 1.0 =
 	- First Release

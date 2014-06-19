@@ -1,32 +1,32 @@
-* html body{
+* html body {
 	margin-top: 0 !important;
 }
 
-body.admin-bar{
+body.admin-bar {
 	margin-top: -32px !important;
 	padding-bottom: 32px !important;
 	background-position: 0 -32px !important;
 }
 
-body.wp-admin #footer{
+body.wp-admin #footer {
 	padding-bottom: 32px;
 }
 
-#wpadminbar{
+#wpadminbar {
 	top: auto !important;
 	bottom: 0;
 }
 
-#wpadminbar .quicklinks .ab-sub-wrapper{
+#wpadminbar .quicklinks .ab-sub-wrapper {
 bottom: 32px;
 }
 
-#wpadminbar .quicklinks .ab-sub-wrapper ul .ab-sub-wrapper{
+#wpadminbar .quicklinks .ab-sub-wrapper ul .ab-sub-wrapper {
 	bottom: -7px;
 }
 
-@media screen and (max-width:782px){
-	body.admin-bar{
+@media screen and (max-width:782px) {
+	body.admin-bar {
 		margin-top: -46px !important;
 		padding-bottom: 46px !important;
 		background-position: 0 -46px !important;
@@ -35,6 +35,6 @@ bottom: 32px;
 
 /* Used for various themes that have sticky headers */
 .sticky-header,
-#phantom{
+#phantom {
 	top: 0 !important
 }
