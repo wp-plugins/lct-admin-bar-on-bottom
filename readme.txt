@@ -1,7 +1,7 @@
 === LCT Admin Bar on Bottom ===
 Contributors: ircary
 Donate link: http://lookclassy.com/
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 Requires at least: 3.3
 Tested up to: 3.9.1
 Tags: Admin Bar, wpadminbar
@@ -31,6 +31,9 @@ none
 
 
 == Changelog ==
+= 1.2.4 =
+	- Updated Globals
+
 = 1.2.3 =
 	- Updated Globals
 
