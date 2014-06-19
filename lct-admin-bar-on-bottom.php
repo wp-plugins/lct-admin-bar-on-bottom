@@ -1,7 +1,7 @@
 <?php /*
 Plugin Name: LCT Admin Bar on Bottom
 Plugin URI: http://lookclassy.com/wordpress-plugins/admin-bar-on-bottom/
-Version: 1.2
+Version: 1.2.1
 Text Domain: lct-admin-bar-on-bottom
 Author: Look Classy Technologies
 Author URI: http://lookclassy.com/
@@ -22,8 +22,12 @@ GNU General Public License for more details.
 
 //Globals
 $lct_G = array();
-$lct_G['lct_text_domain'] = 'lct-admin-bar-on-bottom';
-$lct_G['lct_plugin_base'] = 'lct_admin_bar_on_bottom';
+$lct_G['editzz']					= 'editzz';
+$lct_G['lct_text_domain']			= 'lct-admin-bar-on-bottom';
+$lct_G['lct_plugin_base']			= 'lct_admin_bar_on_bottom';
+$lct_G['plugin_file']				= __FILE__;
+$lct_G['plugin_dir_url']			= plugin_dir_url( __FILE__ );
+$lct_G['plugin_dir_path']			= plugin_dir_path( __FILE__ );
 
 
 add_action( 'admin_init', $lct_G['lct_plugin_base'] . '_back_css' );
@@ -55,6 +59,7 @@ function lct_admin_bar_on_bottom_extra_profile_fields( $user ) {
 
 	<div id="lct-admin-bar-on-bottom">
 		<h3>Admin Bar Settings (wpadminbar)</h3>
+
 		<div class="setting-group">
 			<h3>Put admin bar at the bottom of the browser window</h3>
 
