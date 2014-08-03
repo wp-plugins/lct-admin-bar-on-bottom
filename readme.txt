@@ -1,7 +1,7 @@
 === LCT Admin Bar on Bottom ===
 Contributors: ircary
 Donate link: http://lookclassy.com/
-Stable tag: 1.2.4
+Stable tag: 1.2.5
 Requires at least: 3.3
 Tested up to: 3.9.1
 Tags: Admin Bar, wpadminbar
@@ -13,6 +13,8 @@ This plugin sticks the Admin Bar to the bottom of your screen! You can choose to
 
 == Description ==
 This plugin sticks the Admin Bar to the bottom of your screen! You can choose to make this change on the front-end, back-end or both
+
+Also Available in lct-useful-shortcodes-functions
 
 
 == Installation ==
@@ -31,6 +33,10 @@ none
 
 
 == Changelog ==
+= 1.2.5 =
+	- Moved to lct_admin_bar_on_bottom in LCT Helpful Plugin and made a check for this.
+	- Fixed g_labob global class
+
 = 1.2.4 =
 	- Updated Globals
 
