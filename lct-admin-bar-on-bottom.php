@@ -1,7 +1,7 @@
 <?php /*
 Plugin Name: LCT Admin Bar on Bottom
 Plugin URI: http://lookclassy.com/wordpress-plugins/admin-bar-on-bottom/
-Version: 1.2.5
+Version: 1.4
 Text Domain: lct-admin-bar-on-bottom
 Author: Look Classy Technologies
 Author URI: http://lookclassy.com/
@@ -24,7 +24,7 @@ GNU General Public License for more details.
 //PLUGIN PREFIX: labob
 
 
-if( ! function_exists( 'is_plugin_active' ) ) { require_once( ABSPATH . '/wp-admin/includes/plugin.php' ); }
+if( ! function_exists( 'is_plugin_active' ) ) { include_once( ABSPATH . '/wp-admin/includes/plugin.php' ); }
 if( ! is_plugin_active( 'lct-useful-shortcodes-functions/lct-useful-shortcodes-functions.php' ) ) {
 
 

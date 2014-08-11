@@ -1,9 +1,9 @@
 === LCT Admin Bar on Bottom ===
 Contributors: ircary
 Donate link: http://lookclassy.com/
-Stable tag: 1.2.5
+Stable tag: 1.4
 Requires at least: 3.3
-Tested up to: 3.9.1
+Tested up to: 3.9.2
 Tags: Admin Bar, wpadminbar
 License: GPLv3 or later
 License URI: http://opensource.org/licenses/GPL-3.0
@@ -33,6 +33,10 @@ none
 
 
 == Changelog ==
+= 1.4 =
+	- Tested for WP 3.9.2 Compatibility
+	- Changed the lct-useful-shortcodes-functions is_plugin_active() code
+
 = 1.2.5 =
 	- Moved to lct_admin_bar_on_bottom in LCT Helpful Plugin and made a check for this.
 	- Fixed g_labob global class
