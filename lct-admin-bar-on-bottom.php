@@ -1,7 +1,7 @@
 <?php /*
 Plugin Name: LCT Admin Bar on Bottom
 Plugin URI: http://lookclassy.com/wordpress-plugins/admin-bar-on-bottom/
-Version: 1.4
+Version: 1.4.1
 Text Domain: lct-admin-bar-on-bottom
 Author: Look Classy Technologies
 Author URI: http://lookclassy.com/
@@ -24,12 +24,7 @@ GNU General Public License for more details.
 //PLUGIN PREFIX: labob
 
 
-if( ! function_exists( 'is_plugin_active' ) ) { include_once( ABSPATH . '/wp-admin/includes/plugin.php' ); }
-if( ! is_plugin_active( 'lct-useful-shortcodes-functions/lct-useful-shortcodes-functions.php' ) ) {
-
-
-	//Globals
-	$g_labob = new g_labob;
+if( ! class_exists( 'g_labob' ) ) {
 	class g_labob {
 	 	public $editzz						= 'editzz';
 		public $pre							= 'labob_';
@@ -42,6 +37,12 @@ if( ! is_plugin_active( 'lct-useful-shortcodes-functions/lct-useful-shortcodes-f
 			$this->plugin_dir_path			= plugin_dir_path( __FILE__ );
 		}
 	}
+}
+
+if( ! function_exists( 'is_plugin_active' ) ) { include_once( ABSPATH . '/wp-admin/includes/plugin.php' ); }
+if( ! is_plugin_active( 'lct-useful-shortcodes-functions/lct-useful-shortcodes-functions.php' ) ) {
+	//Globals
+	$g_labob = new g_labob;
 
 
 	add_action( 'admin_init', 'lct_admin_bar_on_bottom_back_css' );
