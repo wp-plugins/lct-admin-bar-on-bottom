@@ -1,7 +1,7 @@
 === LCT Admin Bar on Bottom ===
 Contributors: ircary
 Donate link: http://lookclassy.com/
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 Requires at least: 3.3
 Tested up to: 4.0
 Tags: Admin Bar, wpadminbar
@@ -33,6 +33,9 @@ none
 
 
 == Changelog ==
+= 1.4.3 =
+	- Minor Tweaks
+
 = 1.4.2 =
 	- WP 4.0 Ready
 
